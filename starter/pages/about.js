@@ -1,6 +1,15 @@
+import Link from 'next/link'
+
 const About = () => {
     return (
-        <h1>About Page</h1>
+        <div>
+            <h1>About Page</h1>
+
+            <Link href="/" >
+                <a>Menuju Ke Halaman Home</a>
+            </Link>
+
+        </div>
     )
 }
 

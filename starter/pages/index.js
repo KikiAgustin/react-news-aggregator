@@ -9,9 +9,9 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <link href="/about" >
+      <Link href="/about" >
         <a>Menuju ke halaman about</a>
-      </link>
+      </Link>
 
       <main>
         <h1 className="title">
