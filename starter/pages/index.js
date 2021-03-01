@@ -1,16 +1,20 @@
+import Layout from '../modules/common/components/Layout'
+
 const HomePage = ({ berita }) => {
 
   const { articles } = berita
   return (
-    <div>
-      {
-        articles.map(articles => {
-          return (
-            <p>{articles.title}</p>
-          )
-        })
-      }
-    </div>
+    <Layout>
+      <div>
+        {
+          articles.map(articles => {
+            return (
+              <p>{articles.title}</p>
+            )
+          })
+        }
+      </div>
+    </Layout>
   )
 }
 
